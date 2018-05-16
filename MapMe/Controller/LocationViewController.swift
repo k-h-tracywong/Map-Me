@@ -13,6 +13,8 @@ import CoreLocation
 class LocationViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
 
     @IBOutlet weak var mapView: MKMapView!
+    
+    //Variables and constraints
     var locationManager = CLLocationManager()
     let newPin = MKPointAnnotation()
     
